@@ -1,0 +1,9 @@
+config.vm.provider :virtualbox do |virtualbox|
+  virtualbox.customize ["modifyvm", :id, "--name", "magento2"]
+  virtualbox.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+  virtualbox.customize ["modifyvm", :id, "--memory", "4096"]
+  virtualbox.customize ["modifyvm", :id, "--cpus", "2"]
+  virtualbox.customize ["setextradata", :id, "--VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
+end
+
+config.vm.network "private_network", ip: "33.33.33.30"

@@ -1,0 +1,16 @@
+#SOs
+Thumbs.db
+*~
+._*
+.DS_Store
+
+#IDEs
+nbproject
+.idea
+
+#Vagrant
+.vagrant
+Vagrantfile.local
+
+#Magento code base
+/htdocs
