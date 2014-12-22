@@ -27,7 +27,8 @@ php index.php install --base_url=http://${URL}/ \
     --db_host=localhost --db_name=magento --db_user=root \
     --admin_firstname=General --admin_lastname=admin --admin_email=fcapua@summasolutions.net \
     --admin_username=admin --admin_password=Magento2 --language=en_US \
-    --currency=USD --timezone=America/Chicago
+    --currency=USD --timezone=America/Chicago \
+    --session_save=db
 
 #VIRTUAL HOST
 echo "[$0] Creating Virtual Host"
