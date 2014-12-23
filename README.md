@@ -33,7 +33,7 @@ If you have any comment or suggestion you can contact me [here] (mailto:fcapua@s
     
     If you want the sample data to been installed as well you should uncomment line 12 of your <strong>Vagrantfile.local</strong>
     ```ruby
-    config.vm.provision :shell, :path => "bin/tool/sample-data-install.sh", :privileged => false
+    config.vm.provision :shell, :path => "bin/tools/sample-data-install.sh", :privileged => false
     ```
 
 3. Init vagrant environment
