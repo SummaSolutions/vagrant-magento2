@@ -9,4 +9,4 @@ end
 config.vm.network "private_network", ip: "33.33.33.30"
 
 #Uncomment this if you want the sample data to be installed upon 'vagrant up'
-#config.vm.provision :shell, :path => "bin/tool/sample-data-install.sh", :privileged => false
+#config.vm.provision :shell, :path => "bin/tools/sample-data-install.sh", :privileged => false
